@@ -5,8 +5,9 @@ Parses all the LiPo batteries available on Hobbyking, either from the Global or 
 Works with both python 2 and 3
 
 ## Dependencies
-python requests (http://docs.python-requests.org/)
-python lxml (http://lxml.de/)
+* python requests (http://docs.python-requests.org/)
+* python lxml (http://lxml.de/)
+
 ### On Debian (or variants)
 #### Python 2
 ```Shell
@@ -22,7 +23,7 @@ sudo aptitude install python3-requests python3-lxml
 ## Usage
 1. Download however you would like, git clone, zip, etc
 2. `cd` into the directory
-3. Run with `./lipoCompare.py` or `python3 lipoCompare.py`\`python2 lipoCompare.py`
+3. Run with `./lipoCompare.py` or `python3 lipoCompare.py` \ `python2 lipoCompare.py`
 
 It will print out the top 20 Wh/$ batteries, to change this the `processData()` function would need to be tweaked
 
