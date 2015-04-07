@@ -2,6 +2,7 @@ Hobbyking LiPo Compare
 ======================
 
 Parses all the LiPo batteries available on Hobbyking, either from the Global or US (West) Warehouse
+
 Works with both python 2 and 3
 
 ## Dependencies
